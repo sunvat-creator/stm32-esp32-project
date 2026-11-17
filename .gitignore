@@ -1,0 +1,16 @@
+# --- STM32CubeIDE Build & Settings ---
+stm32-firmware/Debug/
+stm32-firmware/Release/
+stm32-firmware/.settings/
+stm32-firmware/*.launch
+
+# --- Arduino IDE / ESP32 Build ---
+*.bin
+*.elf
+*.map
+build/
+
+# --- OS & Editor Files ---
+.DS_Store
+Thumbs.db
+.vscode/
